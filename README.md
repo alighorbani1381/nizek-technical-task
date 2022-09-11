@@ -22,8 +22,10 @@ Install the project dependencies with [Composer](http://getcomposer.org/).
 
     php artisan migrate
 
-3- Serve Project Locally
+3- Serve Project Locally (Run Queue Worker)
 
+    php artisan queue:work
+    
     php artisan serve
 
 ## 💡 How to Use Project?
