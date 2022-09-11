@@ -16,7 +16,7 @@ Install the project dependencies with [Composer](http://getcomposer.org/).
 
     composer install --ignore-platform-reqs
 
-2- Copy env.example to .env & set mysql connection config
+2- Copy env.example to .env & set mysql & redis connection config
 
 3- Run Migrations To Generate DB Schema
 
